@@ -1,15 +1,12 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <div className="flex-col flex items-center border-8 border-emerald-800 font-saira font-semibold">
-        <div className="w-full text-center py-5 mt-2 border-b-8 border-emerald-800 text-7xl">Portfolio</div>
+        <div className="w-full text-center py-5 mt-2 border-b-8 border-emerald-800 text-7xl">
+          Portfolio
+        </div>
         <div className="w-full my-5 ms-10">
           <div className="mb-6">
             <div>Phone</div>
