@@ -38,25 +38,42 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="flex flex-col gap-y-3 pl-2 pt-0">
+          <div className="flex flex-col gap-y-3 px-2 pt-0">
             <div>
               <div className="text-4xl">Languages</div>
               <div>English</div>
               <div>Thai</div>
             </div>
             <div>
-              <div className="text-4xl">Liking</div>
-              <div>Movies</div>
-              <div>Coding</div>
-              <div>Gaming</div>
+              <div className="text-4xl pb-2">Liking</div>
+              <div className="flex justify-stretch gap-x-2 text-center">
+                <div className="flex h-32 w-48 flex-col justify-center rounded-lg bg-emerald-600 text-white">
+                  <i className="fa-solid fa-film text-5xl"></i>
+                  <div>Movies</div>
+                </div>
+                <div className="flex h-32 w-48 flex-col justify-center rounded-lg bg-emerald-600 text-white">
+                  <i className="fa-solid fa-keyboard text-5xl"></i>
+                  <div>Coding</div>
+                </div>
+                <div className="flex h-32 w-48 flex-col justify-center rounded-lg bg-emerald-600 text-white">
+                  <i className="fa-solid fa-gamepad text-5xl"></i>
+                  <div>Gaming</div>
+                </div>
+              </div>
             </div>
 
             <div>
-              <div className="text-4xl">Education</div>
-              <div className="border-emerald-600 border-t-2 bg-emerald-500 rounded-full text-black w-36 text-center">Junior Highschool</div>
-              <div className="border-emerald-600 border-t-2 bg-emerald-500 rounded-full text-black w-36 text-center">Commercial College</div>
-              <div className="border-emerald-600 border-t-2 bg-emerald-500 rounded-full text-black w-28 text-center">University</div>
-              <div className="w-7 h-auto bg-black"></div>
+              <div className="text-4xl pb-2">Education</div>
+              <div className="w-36 rounded-full border-t-2 border-emerald-600 bg-emerald-500 text-center text-white">
+                Junior Highschool
+              </div>
+              <div className="w-36 rounded-full border-t-2 border-emerald-600 bg-emerald-500 text-center text-white">
+                Commercial College
+              </div>
+              <div className="w-28 rounded-full border-t-2 border-emerald-600 bg-emerald-500 text-center text-white">
+                University
+              </div>
+              {/* <div className="h-1 w-40 bg-black"></div> */}
             </div>
             <div className="text-4xl">Experience</div>
             <div className="text-4xl">Skills</div>
