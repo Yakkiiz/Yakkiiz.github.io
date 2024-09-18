@@ -1,4 +1,9 @@
 import "./App.css";
+import Css3 from "./assets/icons/Css3";
+import Html5 from "./assets/icons/Html5";
+import ReactIcon from "./assets/icons/React";
+import TailwindCss from "./assets/icons/TailwindCss";
+import VsCode from "./assets/icons/VsCode";
 import profileImage from "/ProfileProject.png";
 
 function App() {
@@ -41,29 +46,29 @@ function App() {
           <div className="flex flex-col gap-y-3 px-2 pt-0">
             <div>
               <div className="text-4xl">Languages</div>
-              <div>English</div>
-              <div>Thai</div>
+              <div className="text-2xl">English</div>
+              <div className="text-2xl">Thai</div>
             </div>
             <div>
-              <div className="text-4xl pb-2">Liking</div>
+              <div className="pb-2 text-4xl">Liking</div>
               <div className="flex justify-stretch gap-x-2 text-center">
                 <div className="flex h-32 w-48 flex-col justify-center rounded-lg bg-emerald-600 text-white">
                   <i className="fa-solid fa-film text-5xl"></i>
-                  <div>Movies</div>
+                  <div className="pt-2 text-2xl">Movies</div>
                 </div>
                 <div className="flex h-32 w-48 flex-col justify-center rounded-lg bg-emerald-600 text-white">
                   <i className="fa-solid fa-keyboard text-5xl"></i>
-                  <div>Coding</div>
+                  <div className="pt-2 text-2xl">Coding</div>
                 </div>
                 <div className="flex h-32 w-48 flex-col justify-center rounded-lg bg-emerald-600 text-white">
                   <i className="fa-solid fa-gamepad text-5xl"></i>
-                  <div>Gaming</div>
+                  <div className="pt-2 text-2xl">Gaming</div>
                 </div>
               </div>
             </div>
 
             <div>
-              <div className="text-4xl pb-2">Education</div>
+              <div className="pb-2 text-4xl">Education</div>
               <div className="w-36 rounded-full border-t-2 border-emerald-600 bg-emerald-500 text-center text-white">
                 Junior Highschool
               </div>
@@ -75,9 +80,31 @@ function App() {
               </div>
               {/* <div className="h-1 w-40 bg-black"></div> */}
             </div>
-            <div className="text-4xl">Experience</div>
-            <div className="text-4xl">Skills</div>
-            <div className="text-4xl">Worked As</div>
+            <div>
+              <div className="text-4xl">Skill</div>
+              <div className="flex justify-stretch gap-x-2 text-5xl">
+                <div>
+                  <Html5 className="h-[50px] w-auto" />
+                </div>
+                <div>
+                  <Css3 className="h-[50px] w-auto" />
+                </div>
+                <div>
+                  <ReactIcon className="h-[50px] w-auto" />
+                </div>
+                <div className="text-5xl">
+                  <TailwindCss className="h-[50px] w-auto" />
+                </div>
+                <div>
+                  {/* <img src={vsCode} alt="" /> */}
+                  <VsCode className="h-[50px] w-auto" />
+                </div>
+              </div>
+            </div>
+            <div className="text-4xl">
+              <div className="pb-2">Worked As</div>
+              <div className="text-2xl">IT Support - from 2017 to now</div>
+            </div>
           </div>
         </div>
       </div>
