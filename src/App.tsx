@@ -1,5 +1,6 @@
 import "./App.css";
 import Css3 from "./assets/icons/Css3";
+import Github from "./assets/icons/Github";
 import Html5 from "./assets/icons/Html5";
 import ReactIcon from "./assets/icons/React";
 import TailwindCss from "./assets/icons/TailwindCss";
@@ -96,8 +97,10 @@ function App() {
                   <TailwindCss className="h-[50px] w-auto" />
                 </div>
                 <div>
-                  {/* <img src={vsCode} alt="" /> */}
                   <VsCode className="h-[50px] w-auto" />
+                </div>
+                <div>
+                  <Github className="h-[50px] w-auto" />
                 </div>
               </div>
             </div>
