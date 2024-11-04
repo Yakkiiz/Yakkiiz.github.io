@@ -48,8 +48,8 @@ function App() {
           </div>
           <div className="flex flex-col gap-y-3 px-2 pt-0">
             <div>
-              <div className="flex flex-col text-5xl pb-2">Languages</div>
-              <div className=" grid grid-cols-3">
+              <div className="flex flex-col pb-2 text-5xl">Languages</div>
+              <div className="grid grid-cols-3">
                 <div className="text-2xl text-green-600">English</div>
                 <EnFlag className="h-10 w-10" />
                 <div></div>
@@ -77,15 +77,36 @@ function App() {
 
             <div>
               <div className="pb-2 text-5xl">Education</div>
-              <div className="w-36 rounded-full border-t-2 border-emerald-600 bg-emerald-500 text-center text-white">
-                Junior Highschool
+              <div className="flex text-2xl">
+                <div className="ml-10 flex flex-col">
+                  2009
+                  <div className="w-1 grow bg-emerald-500 ml-5"></div>
+                </div>
+                <div className="ml-20 w-52 rounded-xl border-emerald-300 bg-emerald-500 text-center text-white">
+                  Junior Highschool <br />
+                  St. Mary School
+                </div>
               </div>
-              <div className="w-36 rounded-full border-t-2 border-emerald-600 bg-emerald-500 text-center text-white">
-                Commercial College
+              <div className="flex text-2xl">
+                <div className="ml-10 flex flex-col">
+                  2012
+                  <div className="w-1 grow bg-emerald-500 ml-5"></div>
+                </div>
+                <div className="ml-20 w-52 rounded-xl border-emerald-300 bg-emerald-500 text-center text-white">
+                  Commercial College <br />
+                  Chetupon commercial college
+                </div>
               </div>
-              <div className="w-28 rounded-full border-t-2 border-emerald-600 bg-emerald-500 text-center text-white">
-                University
+              <div className="flex text-2xl">
+                <div className="ml-10 flex flex-col">
+                  2016
+                </div>
+                <div className="ml-20 w-52 rounded-xl border-emerald-300 bg-emerald-500 text-center text-white">
+                  University <br />
+                  University of the thai chamber of commerce
+                </div>
               </div>
+
               {/* <div className="h-1 w-40 bg-black"></div> */}
             </div>
             <div>
